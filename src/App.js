@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import About from './About';
@@ -20,7 +20,7 @@ function App() {
             <div className='col-md-3'>
               <div className='border p-4 rounded border-dark'>
                 <div className='mb-4'>
-                  <img src={user} className='rounded-circle img-fluid mb-4' style={{ width: '200px' , height:'200px', display:'block', margin:'auto' }} />
+                  <img src={user} className='rounded-circle img-fluid mb-4' style={{ width: '200px' , height:'200px', display:'block', margin:'auto' }} alt="imgg" />
                   <ul className='list-group'>
                     <li className='list-group-item'>
                       <Link to={'/about'} className='nav-link'>About Us</Link>
